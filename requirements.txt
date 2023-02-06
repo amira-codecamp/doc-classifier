@@ -1,0 +1,6 @@
+nltk
+joblib
+arabic_reshaper
+Pyarabic
+Flask
+Flask-restful
