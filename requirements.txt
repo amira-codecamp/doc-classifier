@@ -3,4 +3,4 @@ joblib
 arabic-reshaper
 pyArabic
 Flask
-Flask-restful
+Flask-RESTful
