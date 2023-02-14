@@ -7,6 +7,6 @@ pip install doc_classifier
 # Use
 from doc_classifier import classify
 #
-print(classify(summary))
+print(classify(your_summary))
 # Documentation
 https://flask-restful.readthedocs.io/en/latest/
