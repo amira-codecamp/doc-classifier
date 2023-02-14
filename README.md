@@ -3,7 +3,7 @@ Provide document summary to classify using our machine learning model.
 #
 Available languages : Arabic, French, English.
 
-# Pypi package
+# Project package
 https://pypi.org/project/doc-classifier
 
 # Flask-RESTful
