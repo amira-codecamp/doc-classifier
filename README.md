@@ -1,5 +1,5 @@
 # Description
-Provide document summary to classify using our machine learning model. 
+A machine learning model to classify scientific documents (articles and thesis) by field of study.
 #
 Available languages : Arabic, French, English.
 # Install
