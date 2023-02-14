@@ -9,4 +9,6 @@ from doc_classifier import classify
 #
 print(classify(your_summary))
 # Documentation
+https://pypi.org/project/doc-classifier/
+#
 https://flask-restful.readthedocs.io/en/latest/
