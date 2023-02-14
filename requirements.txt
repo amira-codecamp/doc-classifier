@@ -1,6 +1,6 @@
 nltk
 joblib
 arabic-reshaper
-PyArabic
+pyArabic
 Flask
 Flask-RESTful
