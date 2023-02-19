@@ -1,6 +1,8 @@
 nltk
-joblib
 arabic-reshaper
 pyArabic
 Flask
 Flask-RESTful
+scikit-learn
+joblib
+requests
