@@ -1,4 +1,4 @@
-# doc-classifier
+## doc-classifier
 doc-classifier has implemented Support Vector Machines for Document Classification.
 
 ## Installation
