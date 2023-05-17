@@ -1,12 +1,9 @@
-# Description
-A machine learning model to classify scientific documents (articles and thesis) by field of study.
-#
-Available languages : Arabic, French, English.
-# Install
-pip install doc_classifier
-# Use
-from doc_classifier import classify
-#
-print(classify(your_summary))
+<details>
+  <summary>doc-classifier has implemented Support Vector Machines for Document Classification.</summary>
+  ```Python
+  pip install doc_classifier
+  from doc_classifier import classify
+  ```
+</details>
 # Documentation
 https://pypi.org/project/doc-classifier/
