@@ -1,5 +1,6 @@
 ## doc-classifier
 doc-classifier has implemented Support Vector Machines for Document Classification.
+Please see the [my package](https://pypi.org/project/doc-classifier/) for full detail.
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install doc-classifier.
