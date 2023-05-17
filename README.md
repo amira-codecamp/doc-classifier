@@ -11,6 +11,7 @@ pip install doc_classifier
 ## Usage
 ```python
 from doc_classifier import classify
+
 # returns 'field of study'
 classify("your_text")
 ```
