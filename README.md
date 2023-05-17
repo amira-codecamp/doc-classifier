@@ -1,7 +1,16 @@
-<summary>doc-classifier has implemented Support Vector Machines for Document Classification.</summary>
-```Python
- pip install doc_classifier
- from doc_classifier import classify
+# doc-classifier
+doc-classifier has implemented Support Vector Machines for Document Classification.
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install doc-classifier.
+
+```bash
+pip install doc_classifier
 ```
-# Documentation
-https://pypi.org/project/doc-classifier/
+
+## Usage
+```python
+from doc_classifier import classify
+# returns 'field of study'
+classify("your_text")
+```
