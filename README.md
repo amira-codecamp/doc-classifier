@@ -7,6 +7,8 @@
 - **Test Set**: 50,558 documents
 - **Average Accuracy**: 87%
 
+https://pypi.org/project/doc-classifier/
+
 ## Available Labels:
 
 The **doc-classifier** package categorizes documents into the following fields:
