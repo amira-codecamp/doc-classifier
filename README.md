@@ -7,8 +7,6 @@
 - **Test Set**: 50,558 documents
 - **Average Accuracy**: 87%
 
-https://pypi.org/project/doc-classifier/
-
 ## Available Labels:
 
 The **doc-classifier** package categorizes documents into the following fields:
@@ -34,3 +32,5 @@ You can easily install **doc-classifier** via **PyPI** with the following comman
 
 ```bash
 pip install doc-classifier
+
+https://pypi.org/project/doc-classifier/
