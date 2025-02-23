@@ -28,9 +28,9 @@ The **doc-classifier** package categorizes documents into the following fields:
 
 ## Installation
 
+https://pypi.org/project/doc-classifier/
+
 You can easily install **doc-classifier** via **PyPI** with the following command:
 
 ```bash
 pip install doc-classifier
-
-https://pypi.org/project/doc-classifier/
