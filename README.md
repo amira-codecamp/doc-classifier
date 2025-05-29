@@ -1,6 +1,6 @@
 ## **doc-classifier**: A Machine Learning Package for Classifying Scientific Documents
 
-**doc-classifier** is a powerful machine learning package designed to classify scientific documents (articles, theses) into specific fields of study. This tool is built to help researchers, students, and organizations automatically categorize large volumes of scientific texts by their relevant domains.
+**doc-classifier** is a powerful machine learning package designed to classify scientific documents (articles, thesis) into specific fields of study. This tool is built to help researchers, students, and organizations automatically categorize large volumes of scientific texts by their relevant domains.
 
 - **Available Languages**: Arabic, French, English
 - **Training Set**: 117,976 documents
