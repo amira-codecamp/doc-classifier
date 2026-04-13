@@ -52,9 +52,11 @@ from doc_classifier import classify
 
 # Sample text
 text = "This article analyzes the basic classification of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. It combines analysis on common algorithms in machine learning, such as decision tree algorithm, random forest algorithm, artificial neural network algorithm, SVM algorithm, Boosting and Bagging algorithm, BP algorithm. Through the development of theoretical systems, further improvement of autonomous learning capabilities, the integration of multiple digital technologies, and the promotion of personalized custom services, the purpose is to improve people's awareness of machine learning and accelerate the speed of popularization of machine learning."
+
+# Predict category
+label = classify(text)
 ```
 
 ```python
-# Predict category
-label = classify(text)
+print("Predicted category:", label)
 ```
