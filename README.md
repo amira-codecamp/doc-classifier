@@ -43,19 +43,13 @@ pip install doc-classifier
 Usage Example:
 
 ```python
-from doc_classifier import Classifier
-
-# Initialize the model
-model = Classifier()
+from doc_classifier import classify
 
 # Sample text
-text = """
-Deep learning is widely used in natural language processing,
-especially for text classification and semantic understanding.
-"""
+text = "This article analyzes the basic classification of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. It combines analysis on common algorithms in machine learning, such as decision tree algorithm, random forest algorithm, artificial neural network algorithm, SVM algorithm, Boosting and Bagging algorithm, BP algorithm. Through the development of theoretical systems, further improvement of autonomous learning capabilities, the integration of multiple digital technologies, and the promotion of personalized custom services, the purpose is to improve people's awareness of machine learning and accelerate the speed of popularization of machine learning."
 
 # Predict category
-prediction = model.predict(text)
+label = classify(summary)
 
-print("Predicted category:", prediction)
+print("Predicted category:", label)
 ```
