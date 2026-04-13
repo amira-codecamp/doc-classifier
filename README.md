@@ -1,36 +1,61 @@
-## **doc-classifier**: A Machine Learning Package for Classifying Scientific Documents
+# doc-classifier
 
-**doc-classifier** is a powerful machine learning package designed to classify scientific documents (articles, thesis) into specific fields of study. This tool is built to help researchers, students, and organizations automatically categorize large volumes of scientific texts by their relevant domains.
+> A machine learning package for classification of scientific documents into academic fields. It helps researchers, students, and organizations efficiently organize and analyze large volumes of scientific text.
 
-- **Available Languages**: Arabic, French, English
-- **Training Set**: 117,976 documents
-- **Test Set**: 50,558 documents
-- **Average Accuracy**: 87%
-
-## Available Labels:
-
-The **doc-classifier** package categorizes documents into the following fields:
-
-- Sciences and technology
-- Matter sciences
-- Mathematics and computer science
-- Natural and life sciences
-- Earth and universe sciences
-- Economics, marketing, and management
-- Law and political sciences
-- Literature and foreign languages
-- Social and human sciences
-- Sport and physical activities
-- Health sciences
-- Architecture and urban planning
+[![PyPI version](https://img.shields.io/pypi/v/doc-classifier.svg)](https://pypi.org/project/doc-classifier/)
 
 ---
 
-## Installation
+## ✨ Features
 
-https://pypi.org/project/doc-classifier/
+- Supports **Arabic, French, English**
+- Trained on **117 976 documents**
+- Evaluated on **50 558 documents**
+- Achieves **~87% accuracy**
 
-You can easily install **doc-classifier** via **PyPI** with the following command:
+---
+
+## 🏷️ Supported Labels
+
+- Sciences & Technology  
+- Physics & Chemistry  
+- Mathematics & Computer Science  
+- Natural & Life Sciences  
+- Earth & Universe Sciences  
+- Economics, Marketing & Management  
+- Law & Political Sciences  
+- Literature & Foreign Languages  
+- Social & Human Sciences  
+- Sports & Physical Activities  
+- Health Sciences  
+- Architecture & Urban Planning  
+
+---
+
+## 📦 Installation
+
+Install the package from PyPI:
 
 ```bash
 pip install doc-classifier
+```
+
+Usage Example:
+
+```python
+from doc_classifier import Classifier
+
+# Initialize the model
+model = Classifier()
+
+# Sample text
+text = """
+Deep learning is widely used in natural language processing,
+especially for text classification and semantic understanding.
+"""
+
+# Predict category
+prediction = model.predict(text)
+
+print("Predicted category:", prediction)
+```
